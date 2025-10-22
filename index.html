@@ -39,6 +39,17 @@ img {
       margin-right: 0.5rem; /* stops link wrapping early */
     }
   }
+
+ul.horizontal {
+  list-style-position: inside;
+  padding: 0;
+}
+ul.horizontal li {
+  display: inline;
+  margin-right: 1rem; /* spacing between items */
+}
+
+
   
 </style>
 </head>
@@ -48,11 +59,11 @@ img {
       <header>
       <h1>Oskar Glowacki</h1>
       <p style="margin-top: 1px;">Associate Professor</p>
-        <ul>
-          <li>Ice–ocean interactions</li>
-          <li>Arctic underwater acoustics</li>
-          <li>Glacial melt dynamics</li>
-      </ul>
+  <ul class="horizontal">
+    <li>Ice–ocean interactions</li>
+    <li>Arctic acoustics</li>
+    <li>Glacial melt dynamics</li>
+  </ul>
       <p style="margin-top: 2px;">Department of Polar and Marine Research<br>Institute of Geophysics, Polish Academy of Sciences
       <br>64 Księcia Janusza St., 01-452 Warsaw, Poland</p>
       <p style="margin-top: 1px;">room: 529, phone: +48 22 6915 817
