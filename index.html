@@ -38,16 +38,18 @@ img {
   }
 
 ul.horizontal {
-  list-style-position: inside;
+  list-style: none;
   padding: 0;
+  margin: 0;
 }
+
 ul.horizontal li {
   display: inline;
-  margin-right: 1rem; /* spacing between items */
 }
+
 ul.horizontal li:not(:last-child)::after {
-  content: " • ";           /* middle dot separator */
-  margin: 0 0.4rem;         /* spacing around the dot */
+  content: " •";
+  margin: 0 0.5rem;  /* perfect visual balance */
 }
 
   .subtitle {
